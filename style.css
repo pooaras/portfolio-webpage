@@ -1,3 +1,4 @@
+                   /* -----------------------HOME PAGE---------------------- */
 nav#link{
   background-color: gray;
   display:flex; 
@@ -46,4 +47,25 @@ footer{
   top: 10px;
   color: aliceblue;
   text-align: center;
+}
+        /* --------------------------------PROFILE PAGE----------------------------- */
+#profile{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration:underline overline gray ;
+}
+.mypic{
+  left: 200px;
+  height: fit-content;
+}
+#inf{
+  position: relative;
+  text-align: left;
+  top: 80px;
+  left: 600px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+  font-size: large;
+  line-height: 30px;
+  
 }
