@@ -71,8 +71,12 @@ footer{
   
 }
 #logo-profile{
-  font-size:larger;
-  color: rgb(26, 151, 151);
+  font-size:140%;
+  
+}
+.profilelogo{
+   padding: 3%;
+   color: rgb(20, 2, 53);
 }
       /* ----------------contact me page----------------- */
 .contact-pic{
@@ -87,4 +91,15 @@ footer{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 190%;
   text-align: center;
+}
+#logo{
+  position: relative;
+  top: 500px;
+  left: 300px;
+  font-size: 400%;
+  
+}
+.contactlogo{
+  color: black;
+  padding: 5%;
 }
