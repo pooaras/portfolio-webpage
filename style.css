@@ -2,20 +2,22 @@
 nav#link{
   background-color: gray;
   display:flex; 
-  justify-content:right;
+  justify-content:left;
   
 }
+
 #link a{
 
-   border: 10px;
+   border: 5%;
+   border-radius: 10px;
    font-family:cursive;
-   padding:10px 50px;
+   padding:10px 40px;
    text-decoration: none;
-   color: aqua;
+   color: rgb(74, 216, 216);
 }
 
 #link a:hover{
-  background-color: rgb(31, 79, 121);
+  background-color: rgb(23, 45, 63);
 }
 #link a:active{
   background-color: aliceblue;
@@ -29,25 +31,32 @@ img{
 }
  h1{ color: rgb(10, 9, 9);
     position: absolute;
-    top: 300px;
+    top: 280px;
     left: 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
       
 }
-footer{
-  position: relative;
-  top: 620px;
-  
+footer#index-footer{
+  color: aliceblue;
+  position:relative;
+  top: 500px;
   width: 100%;
-  height: 35px;
+  height: 170px;
   background-color: rgb(20, 2, 53);
+  text-align: center;
+  font-size: 110%;
+
 }
 #privacy{
+
   font-family: 'Courier New', Courier, monospace;
-  top: 10px;
-  color: aliceblue;
-  text-align: center;
+ 
 }
+h4{
+  font-size: 150%;
+  padding-top: 20px;
+}
+
         /* --------------------------------PROFILE PAGE----------------------------- */
 #profile{
   text-align: center;
@@ -55,15 +64,16 @@ footer{
   text-decoration:underline overline gray ;
 }
 .mypic{
-  top: 180px;
-  left: 200px;
-  height: fit-content;
+  top: 230px;
+  left: 250px;
+  height: 40%;
+  width: 12%;
 }
 #inf{
   position: relative;
   text-align: left;
   top: 80px;
-  left: 600px;
+  left: 500px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: oblique;
   font-size: large;
@@ -71,30 +81,53 @@ footer{
   
 }
 #logo-profile{
-  font-size:140%;
+  text-align: center;
+  font-size:150% ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+  position: relative;
+  top: 100px;
+  right: 50px;
   
 }
 .profilelogo{
+  position: relative;
+  top: 150px;
+  left: 400px;
+  font-size:300%;
    padding: 3%;
    color: rgb(20, 2, 53);
 }
-      /* ----------------contact me page----------------- */
-.contact-pic{
-  position: absolute;
-  top: 30%;
-  left: 15%;
-  height: 70%;
-  width:60%;
-}
-#contact{
-  position: relative;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 190%;
+footer#index-profile{
+  color: aliceblue;
+  position:relative;
+  top: 200px;
+  width: 100%;
+  height: 170px;
+  background-color: rgb(20, 2, 53);
   text-align: center;
+  font-size: 110%;
+
+}
+/* ----------------contact me page----------------- */
+#contact{
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  top: 10%;
+  font-size: 190%;
+  left: 200px;
+  text-align: center;
+}
+.contact-pic{
+  position:relative;
+  top: 100px;
+  left: 15%;
+  height: 110%;
+  width:70%;
 }
 #logo{
   position: relative;
-  top: 500px;
+  top: 100px;
   left: 300px;
   font-size: 400%;
   
@@ -102,4 +135,15 @@ footer{
 .contactlogo{
   color: black;
   padding: 5%;
+}
+footer#index-contact{
+  color: aliceblue;
+  position:relative;
+  top: 100px;
+  width: 100%;
+  height: 170px;
+  background-color: rgb(20, 2, 53);
+  text-align: center;
+  font-size: 110%;
+
 }
