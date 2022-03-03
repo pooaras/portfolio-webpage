@@ -1,19 +1,29 @@
                    /* -----------------------HOME PAGE---------------------- */
 nav#link{
   background-color: gray;
-  display:flex; 
-  justify-content:left;
+  padding:10px 40px;
   
 }
+#link a.home-link{
+  position: relative;
+  right: 2.5%;
+  border: 5%;
+  border-radius: 10px;
+  font-family:cursive;
+  padding:10px 40px;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
 
-#link a{
-
+#link a.soc-link{
+  position: relative;
+   left:40%;
    border: 5%;
    border-radius: 10px;
    font-family:cursive;
    padding:10px 40px;
    text-decoration: none;
-   color: rgb(74, 216, 216);
+   color: rgb(185, 223, 223);
 }
 
 #link a:hover{
@@ -67,7 +77,7 @@ h4{
   top: 230px;
   left: 250px;
   height: 40%;
-  width: 12%;
+  width: 13%;
 }
 #inf{
   position: relative;
