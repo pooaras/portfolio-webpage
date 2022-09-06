@@ -5,61 +5,70 @@
                     box-sizing: border-box;
                   }
                   .links{
-                    display: flex;
+                    height: 40px;
                     background-color: gray;
-                    justify-content: flex-start;
+                    overflow: hidden;
+                    
                     /* padding-left: 38px; */
-                    /* padding-top: 10px;
-                    padding-bottom: 10px; */
+                    padding-top: 7px;
+                    padding-bottom: 10px;
                     
                   }
                   .links .home-link{
                     
                     /* position: relative; */
                     /* right: 2.5%; */
-                    padding-left: 5px;
-                    padding-right: 10px;
-                    border: 5%;
+                    
                     border-radius: 10px;
                     font-family:cursive;
-                    padding:10px 10px;
+                    padding:4px ;
                     text-decoration: none;
                     color: rgb(10, 10, 10);
                   }
-                  
-                  .links .soc-link{
+                  .linke{
+                    float: right;
+                  }
+                   .soc-link{
                     
                   
-                     transform: translateX(1207px);
+                     /* transform: translateX(1207px); */
                      
-                     border: 5%;
+                     
                      border-radius: 25px;
                      font-family:cursive;
-                     color: black;
-                     padding:10px 12px 10px 12px ;
+                     
+                     padding:6px ;
+                     border-radius: 50%;
                      /* padding-left: 10px;
                      padding-right: 10px; */
                      text-decoration: none;
                      color: rgb(185, 223, 223);
                      
+                    
                   }
-                  
+                  .links a{
+                    transform: scale(9);
+                  }
                   .links a:hover{
                     background-color: rgb(23, 45, 63);
                     color: antiquewhite;
                   }
                   .links a:active{
                     background-color: aliceblue;
+                    color: black;
                   }
                 
                   img{
                       width: 300px;
                       height: 300px;
-                      position: absolute;
+                      position: fixed;
                       top:200px;
-                      left:900px;
+                      left:800px;
                   }
-                   h1{ color: rgb(10, 9, 9);
+                   h1{ 
+                      text-align: center;
+                      color: rgb(10, 9, 9);
+                      box-shadow: 4px 3px 5px 3px  gray;
                       position: absolute;
                       top: 280px;
                       left: 300px;
